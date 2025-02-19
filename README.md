@@ -83,4 +83,4 @@ The model generalizes well but has some limitations due to external factors not 
 - Special thanks to various statistical modeling and machine learning resources that guided the analysis.
 
 ## Contact
-Created by [@Anish-db13] - feel free to contact me!
+Created by [@anishdb13](https://github.com/anishdb13) - feel free to contact me!

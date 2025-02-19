@@ -45,25 +45,27 @@ The dataset used for this analysis contains information on bike rentals, weather
 
 - Dependent Variable (Target): cnt (Total count of rented bikes)
 - Independent Variables (Predictors):
-  - year (Year of rental)
-  - holiday (Whether the day is a holiday)
-  - temp (Temperature in normalized form)
-  - windspeed (Wind speed in normalized form)
-  - sep (September flag)
-  - sat (Saturday flag)
-  - Light_snowrain (Indicator for light snow or rain)
-  - Misty (Indicator for misty weather)
-  - spring (Spring season flag)
-  - summer (Summer season flag)
-  - winter (Winter season flag)
+  - `year` (Year of rental)
+  - `holiday` (Whether the day is a holiday)
+  - `temp` (Temperature in normalized form)
+  - `windspeed` (Wind speed in normalized form)
+  - `sep` (September flag)
+  - `sat` (Saturday flag)
+  - `Light_snowrain` (Indicator for light snow or rain)
+  - `Misty` (Indicator for misty weather)
+  - `spring` (Spring season flag)
+  - `summer` (Summer season flag)
+  - `winter` (Winter season flag)
 
 ## Conclusions
 
-- The model achieved an R² score of 0.834 on the training dataset and 0.8042 on the test dataset, indicating a strong predictive capability.
-- The adjusted R² values are 0.830 for training and 0.7939 for testing, confirming that the model generalizes well.
+- The model achieved good performance with:
+  - Training R²: 0.834, Adjusted R²: 0.830
+  - Testing R²: 0.8042, Adjusted R²: 0.7939
 - Key factors influencing bike demand include temperature, wind speed, seasonal changes (spring, summer, winter), and weather conditions (light snow/rain, misty weather).
 - The presence of multicollinearity was checked using VIF values and a correlation heatmap, ensuring that independent variables do not have strong dependencies.
 
+The model generalizes well but has some limitations due to external factors not captured in the dataset.
 ## Technologies Used
 
 - Python - 3.x

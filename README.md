@@ -78,9 +78,17 @@ The model generalizes well but has some limitations due to external factors not 
 
 ## Acknowledgements
 
-- This project was inspired by bike-sharing demand analysis use cases.
-- Data used in this project was adapted from public datasets related to bike rental services.
-- Special thanks to various statistical modeling and machine learning resources that guided the analysis.
+This project was inspired by data analysis techniques learned from various sources.
+
+References:  
+  - [Scikit-learn Documentation](https://scikit-learn.org/stable/),
+  - [Statsmodels Documentation](https://www.statsmodels.org/),
+  - [Pandas Documentation](https://pandas.pydata.org/),
+  - [Seaborn Documentation](https://seaborn.pydata.org/),
+  - [Matplotlib Documentation](https://matplotlib.org/),
+  - [NumPy Documentation](https://numpy.org/).  
+
+This project is based on statistical modeling and machine learning concepts used in real-world demand forecasting.
 
 ## Contact
 Created by [@anishdb13](https://github.com/anishdb13) - feel free to contact me!
